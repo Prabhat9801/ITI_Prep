@@ -16,7 +16,11 @@ export const fetchAPI = async (endpoint, options = {}) => {
     
     return await response.json();
   } catch (error) {
-    console.error('API Error:', error);
+    console.error('--- API Error Details ---');
+    console.error('Endpoint:', endpoint);
+    console.error('Full URL:', `${API_BASE_URL}${endpoint}`);
+    console.error('Message:', error.message);
+    console.error('------------------------');
     throw error;
   }
 };

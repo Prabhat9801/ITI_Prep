@@ -41,6 +41,7 @@ a {
   text-decoration: inherit;
   transition: color 0.2s;
 }
+
 a:hover {
   color: var(--primary-hover);
 }
@@ -146,7 +147,51 @@ button:focus-visible {
 .gap-6 { gap: 1.5rem; }
 .grid { display: grid; }
 
-/* Micro-animations */
+/* Mobile Responsiveness & Fixes */
+@media (max-width: 640px) {
+  .lp-body {
+    flex-direction: column;
+  }
+  
+  .lp-side {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    z-index: 100;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .lp-side.open {
+    transform: translateX(0);
+  }
+  
+  .lp-main {
+    padding: 1rem;
+  }
+  
+  .glass-card {
+    padding: 1.5rem !important;
+  }
+  
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.5rem; }
+  
+  /* Prevent horizontal scroll */
+  body, #root {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  /* Better touch targets */
+  button, .btn-primary, .sb-topic {
+    min-height: 44px;
+  }
+}
+
+/* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
