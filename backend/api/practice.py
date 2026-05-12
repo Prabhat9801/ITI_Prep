@@ -1,6 +1,7 @@
 """Questions & Practice API routes."""
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 from database.database import get_db
 from database.models import Question, Attempt, PracticeSession, StudentProgress, MockTestResult, MockTestAnswer, WeakAreaLog, Subject, Topic
@@ -80,7 +81,7 @@ def start_session(data: SessionCreate, db: Session = Depends(get_db)):
 def start_mock_test(db: Session = Depends(get_db)):
     """Fetch 100 random questions for the full mock test and shuffle options."""
     import random
-    questions = db.query(Question).order_by(db.func.random()).limit(100).all()
+    questions = db.query(Question).order_by(func.random()).limit(100).all()
     if not questions:
         return {"error": "No questions found", "questions": []}
         
