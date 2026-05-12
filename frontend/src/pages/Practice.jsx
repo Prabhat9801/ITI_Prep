@@ -31,6 +31,7 @@ const Practice = () => {
   const [timeLeft, setTimeLeft] = useState(120 * 60);
   const [category, setCategory] = useState(CATEGORIES[0]);
   const [showCategorySelect, setShowCategorySelect] = useState(false);
+  const [errorMsg, setErrorMsg] = useState(null);
   const [answersLog, setAnswersLog] = useState([]); // Per-question answer tracking
 
   useEffect(() => {
@@ -78,16 +79,22 @@ const Practice = () => {
   };
 
   const startMockTest = async () => {
-    setShowCategorySelect(false);
+    setErrorMsg(null);
     setLoading(true);
     setIsMockTest(true);
     try {
       const data = await fetchAPI('/practice/mock-test');
+      if (data.error || !data.questions || data.questions.length === 0) {
+        throw new Error(data.error || "No questions found in database. Please seed the database first.");
+      }
       setSession(data);
       setTimeLeft(120 * 60);
       resetState();
+      setShowCategorySelect(false);
     } catch (error) {
       console.error(error);
+      setErrorMsg(error.message || "Failed to connect to backend server.");
+      setIsMockTest(false);
     } finally {
       setLoading(false);
     }
@@ -191,6 +198,12 @@ const Practice = () => {
   if (!session && !loading) {
     return (
       <div className="max-w-4xl mx-auto mt-10 animate-fade-in">
+        {errorMsg && (
+          <div className="bg-danger/10 border border-danger/30 text-danger p-4 rounded-xl mb-6 flex items-center gap-3">
+            <AlertCircle size={20} />
+            <p className="font-medium">{errorMsg}</p>
+          </div>
+        )}
         {topicId ? (
           <div className="text-center">
             <h1 className="text-3xl font-bold text-white mb-4">Topic Practice</h1>
