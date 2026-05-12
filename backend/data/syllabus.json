@@ -1,0 +1,1191 @@
+{
+  "syllabus": [
+    {
+      "subject_name": "Mathematics - I",
+      "units": [
+        {
+          "unit_title": "Trigonometry",
+          "topics": [
+            "Concept of angles",
+            "Measurement of angles in degrees, grades and radians and their conversions",
+            "T-Ratios of Allied angles (without proof)",
+            "Sum and difference formulae and their applications (without proof)",
+            "Product formulae (Transformation of product to sum, difference and vice versa)",
+            "T-Ratios of multiple angles, sub-multiple angles (2A, 3A, A/2)",
+            "Graphs of sin x, cos x, tan x and e^x"
+          ]
+        },
+        {
+          "unit_title": "Differential Calculus",
+          "topics": [
+            "Definition of function",
+            "Concept of limits",
+            "Four standard limits: lim(x→a) (x^n - a^n)/(x - a), lim(x→0) sin x/x, lim(x→0) (a^x - 1)/x, lim(x→0) sin(1/x)",
+            "Differentiation by definition of e^x and log_a x",
+            "Differentiation of sum, product and quotient of functions",
+            "Differentiation of function of a function",
+            "Differentiation of trigonometric and inverse trigonometric functions",
+            "Logarithmic differentiation",
+            "Exponential functions"
+          ]
+        },
+        {
+          "unit_title": "Algebra",
+          "topics": [
+            "Complex Numbers: Definition, real and imaginary parts, polar and Cartesian representation, conjugate, modulus and amplitude",
+            "Addition, Subtraction, Multiplication and Division of complex numbers",
+            "De Moivre's theorem and its application",
+            "Partial fractions: Proper and improper fractions, resolving into partial fractions with non-repeated linear factors, repeated linear factors, and irreducible non-repeated quadratic factors",
+            "Permutations and Combinations: nPr and nCr",
+            "Binomial theorem for positive integral index (expansion and general form)",
+            "Binomial theorem for any index (expansion without proof), first and second binomial approximation"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Applied Physics - I",
+      "units": [
+        {
+          "unit_title": "Physical world, Units and Measurements",
+          "topics": [
+            "Physical quantities: fundamental and derived",
+            "Units and systems of units (FPS, CGS and SI units)",
+            "Dimensions and dimensional formulae",
+            "Principle of homogeneity of dimensions",
+            "Applications of dimensional analysis: conversion of units, checking equations, derivation of simple equations",
+            "Limitations of dimensional analysis",
+            "Measurements: Need, measuring instruments, least count, types of measurement (direct, indirect)",
+            "Errors in measurements: systematic and random, absolute error, relative error, error propagation, error estimation, significant figures"
+          ]
+        },
+        {
+          "unit_title": "Force and Motion",
+          "topics": [
+            "Scalar and Vector quantities: examples, representation, types",
+            "Addition and Subtraction of Vectors, Triangle and Parallelogram law (Statement only)",
+            "Scalar and Vector Product",
+            "Resolution of a Vector and its application to inclined plane and lawn roller",
+            "Force, Momentum, conservation of linear momentum (statement and derivation), applications (recoil of gun, rockets)",
+            "Impulse and its applications",
+            "Circular motion: angular displacement, angular velocity, angular acceleration, frequency, time period",
+            "Relation between linear and angular motion",
+            "Centripetal and Centrifugal forces with examples",
+            "Applications: banking of roads and bending of cyclist"
+          ]
+        },
+        {
+          "unit_title": "Work, Power and Energy",
+          "topics": [
+            "Work: Concept, units, examples of zero, positive and negative work",
+            "Friction: concept, types, laws of limiting friction, coefficient of friction, reducing friction, engineering applications",
+            "Work done in moving an object on horizontal and inclined plane (rough and plane surfaces)",
+            "Energy and its units: kinetic energy, gravitational potential energy",
+            "Mechanical energy, conservation of mechanical energy for freely falling bodies",
+            "Transformation of energy",
+            "Power and its units, relationship between power and work, calculation of power"
+          ]
+        },
+        {
+          "unit_title": "Rotational Motion",
+          "topics": [
+            "Translational and rotational motions with examples",
+            "Torque and angular momentum: definition, examples",
+            "Conservation of angular momentum (quantitative) and its applications",
+            "Moment of inertia and its physical significance",
+            "Radius of gyration",
+            "Theorems of parallel and perpendicular axes (statements only)",
+            "Moment of inertia of rod, disc, ring and sphere (hollow and solid) - Formulae only"
+          ]
+        },
+        {
+          "unit_title": "Properties of Matter",
+          "topics": [
+            "Elasticity: stress and strain, moduli of elasticity, Hooke's law, stress-strain curve",
+            "Pressure: definition, units, atmospheric pressure, gauge pressure, absolute pressure, Fortin's Barometer and its applications",
+            "Surface tension: concept, units, cohesive and adhesive forces, angle of contact, Ascent Formula (No derivation), applications, effect of temperature and impurity",
+            "Viscosity and coefficient of viscosity: Terminal velocity, Stoke's law, effect of temperature, applications in hydraulic systems",
+            "Hydrodynamics: Fluid motion, stream line and turbulent flow, Reynold's number, Equation of continuity, Bernoulli's Theorem (formula and numericals) and applications"
+          ]
+        },
+        {
+          "unit_title": "Heat and Thermometry",
+          "topics": [
+            "Concept of heat and temperature",
+            "Modes of heat transfer: conduction, convection and radiation with examples",
+            "Specific heats",
+            "Scales of temperature and their relationship",
+            "Types of Thermometer: Mercury, Bimetallic, Platinum resistance, Pyrometer and their uses",
+            "Expansion of solids, liquids and gases: coefficient of linear, surface and cubical expansions and relation amongst them",
+            "Coefficient of thermal conductivity, engineering applications"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Applied Chemistry",
+      "units": [
+        {
+          "unit_title": "Atomic Structure, Chemical Bonding and Solutions",
+          "topics": [
+            "Rutherford model of atom",
+            "Bohr's theory and hydrogen spectrum explanation",
+            "Heisenberg uncertainty principle",
+            "Quantum numbers and orbital concept",
+            "Shapes of s, p and d orbitals",
+            "Pauli's exclusion principle, Hund's rule, Aufbau rule, electronic configuration",
+            "Concept of chemical bonding: ionic bonding (NaCl), covalent bond (H2, F2, HF), hybridization (BeCl2, BF3, CH4, NH3, H2O)",
+            "Coordination bond in NH4+",
+            "Hydrogen bonding and anomalous properties of NH3, H2O",
+            "Metallic bonding",
+            "Solution: solute, solvent, methods to express concentration (molarity, ppm, mass percentage, volume percentage, mole fraction)"
+          ]
+        },
+        {
+          "unit_title": "Water",
+          "topics": [
+            "Graphical presentation of water distribution on Earth",
+            "Classification of soft and hard water, salts causing hardness, unit of hardness, simple numericals",
+            "Cause of poor lathering of soap in hard water",
+            "Problems caused by hard water in boilers (scale, sludge, foaming, priming, corrosion)",
+            "Quantitative measurement of water hardness by EDTA method, total dissolved solids (TDS), alkalinity estimation",
+            "Water softening techniques: soda lime process, zeolite process, ion exchange process",
+            "Municipal water treatment: sedimentation, coagulation, filtration, sterilization",
+            "Indian standard specification of drinking water"
+          ]
+        },
+        {
+          "unit_title": "Engineering Materials",
+          "topics": [
+            "Natural occurrence of metals: minerals, ores of iron, aluminium and copper, gangue, flux, slag",
+            "General principles of metallurgy",
+            "Extraction of iron from haemite ore using blast furnace",
+            "Extraction of aluminium from bauxite",
+            "Alloys: definition, purposes, ferrous and non-ferrous alloys with examples, properties and applications",
+            "General chemical composition and applications of: Portland cement, Glass, Refractory, Composite materials",
+            "Polymers: monomer, homo and co-polymers, degree of polymerization, reactions and applications of thermoplastics and thermosetting plastics (PVC, PS, PTFE, nylon-6, nylon-6,6, Bakelite)",
+            "Rubber and vulcanization of rubber"
+          ]
+        },
+        {
+          "unit_title": "Chemistry of Fuels and Lubricants",
+          "topics": [
+            "Definition of fuel and combustion, classification of fuels",
+            "Calorific values (HCV and LCV), calculation using Dulong's formula",
+            "Proximate analysis of coal",
+            "Petrol and diesel: fuel rating (octane and cetane numbers)",
+            "Chemical composition, calorific values and applications of LPG, CNG, water gas, coal gas, producer gas, biogas",
+            "Lubrication: function and properties of good lubricant, classification with examples",
+            "Lubrication mechanisms: hydrodynamic and boundary lubrication",
+            "Physical properties of lubricants: viscosity, viscosity index, oiliness, flash and fire point, cloud and pour point",
+            "Chemical properties of lubricants: coke number, total acid number, saponification value"
+          ]
+        },
+        {
+          "unit_title": "Electro Chemistry",
+          "topics": [
+            "Electronic concept of oxidation, reduction and redox reactions",
+            "Electrolytes and non-electrolytes with examples",
+            "Faraday's laws of electrolysis and simple numerical problems",
+            "Industrial Application of Electrolysis: Electrometallurgy, Electroplating, Electrolytic refining",
+            "Electrochemical cells: Primary cells (dry cell), Secondary cell (lead storage battery), Fuel and Solar cells",
+            "Corrosion of metals: definition, types (chemical and electrochemical), H2 liberation and O2 absorption mechanisms, factors affecting rate of corrosion",
+            "Corrosion preventive measures: internal (purification, alloying, heat treatment) and external (metal coatings, organic inhibitors)"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Communication Skills in English",
+      "units": [
+        {
+          "unit_title": "Communication: Theory and Practice",
+          "topics": [
+            "Basics of communication: meaning, definition, process",
+            "Types of communication: formal and informal, verbal, non-verbal and written",
+            "Barriers to effective communication",
+            "7 Cs for effective communication",
+            "Art of Effective communication: choosing words, voice modulation, clarity, time, simplification",
+            "Technical Communication"
+          ]
+        },
+        {
+          "unit_title": "Soft Skills for Professional Excellence",
+          "topics": [
+            "Soft Skills and Hard Skills",
+            "Importance of soft skills",
+            "Life skills: Self-awareness, Self-analysis, adaptability, resilience, emotional intelligence, empathy",
+            "Applying soft skills across cultures",
+            "Case Studies"
+          ]
+        },
+        {
+          "unit_title": "Reading Comprehension",
+          "topics": [
+            "Comprehension, vocabulary enhancement and grammar exercises based on texts from:",
+            "Malgudi Days by R.K. Narayan",
+            "The Room on Roof by Ruskin Bond",
+            "The Gift of the Magi by O. Henry",
+            "Uncle Podger Hangs a Picture by Jerome K. Jerome",
+            "Night of the Scorpion by Nissim Ezekiel",
+            "Stopping by Woods on a Snowy Evening by Robert Frost",
+            "Where the Mind is Without Fear by Rabindranath Tagore",
+            "Ode to Tomatoes by Pablo Neruda"
+          ]
+        },
+        {
+          "unit_title": "Professional Writing",
+          "topics": [
+            "The art of precis writing",
+            "Letters: business and personal",
+            "Drafting e-mail, notices, minutes of a meeting",
+            "Filling-up different forms (bank, online placement forms)"
+          ]
+        },
+        {
+          "unit_title": "Vocabulary and Grammar",
+          "topics": [
+            "Vocabulary of commonly used words",
+            "Glossary of administrative terms (English and Hindi)",
+            "One-word substitution, Idioms and phrases",
+            "Parts of speech, active and passive voice, tenses",
+            "Punctuation"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Engineering Graphics",
+      "units": [
+        {
+          "unit_title": "Basic elements of Drawing",
+          "topics": [
+            "Drawing Instruments and supporting materials",
+            "Convention of lines and applications",
+            "Representative Fractions: reduced, enlarged and full size scales",
+            "Engineering Scales: plain and diagonal scale",
+            "Dimensioning techniques as per SP-46:2003: chain, parallel and coordinate dimensioning",
+            "Geometrical and Tangency constructions (Redraw the figure)"
+          ]
+        },
+        {
+          "unit_title": "Orthographic projections",
+          "topics": [
+            "Introduction to projections: orthographic, perspective, isometric and oblique (concept and applications, no exam questions)",
+            "Introduction to orthographic projection, First angle and Third angle method, their symbols",
+            "Conversion of pictorial view into Orthographic Views (First Angle Projection only) for objects with plain surfaces, slanting surfaces, slots, ribs, cylindrical surfaces"
+          ]
+        },
+        {
+          "unit_title": "Isometric Projections",
+          "topics": [
+            "Introduction to isometric projections",
+            "Isometric scale and Natural scale",
+            "Isometric view and isometric projection",
+            "Illustrative problems related to objects containing lines, circles and arcs",
+            "Conversion of orthographic views into isometric view/projection"
+          ]
+        },
+        {
+          "unit_title": "Free Hand Sketches of engineering elements",
+          "topics": [
+            "Free hand sketches of machine elements: Thread profiles, nuts, bolts, studs, set screws, washer, Locking arrangements",
+            "Free hand sketches of orthographic view (on squared graph paper) and isometric view (on isometric grid paper)"
+          ]
+        },
+        {
+          "unit_title": "Computer aided drafting interface",
+          "topics": [
+            "Concept of Computer Aided Drafting",
+            "Hardware and various CAD software",
+            "System requirements and understanding the interface",
+            "Components of AutoCAD software window",
+            "File features: New, Saving, Opening, Creating templates, Quit",
+            "Setting up new drawing: Units, Limits, Grid, Snap",
+            "Undoing and redoing action"
+          ]
+        },
+        {
+          "unit_title": "Computer aided drafting",
+          "topics": [
+            "Draw basic entities: Line, Circle, Arc, Polygon, Ellipse, Rectangle, Multiline, Poly Line",
+            "Specifying points: Absolute coordinates, Relative Cartesian and Polar coordinates",
+            "Modify and edit commands: trim, extend, delete, copy, offset, array, block, layers",
+            "Dimensioning: Linear, Horizontal, Vertical, Aligned, Rotated, Baseline, Continuous, Diameter, Radius, Angular Dimensions",
+            "Dim scale variable, editing dimensions",
+            "Text: Single line Text, Multiline text",
+            "Standard sheet sizes, plotting parameters: Paper size, units, orientation, scale, offset, area, print preview"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Engineering Workshop Practice",
+      "units": [
+        {
+          "unit_title": "Carpentry",
+          "topics": [
+            "Demonstration of different wood working tools/machines",
+            "Demonstration of different wood working processes (plaining, marking, chiseling, grooving, turning)",
+            "One simple job involving a joint (mortise and tenon, dovetail, bridle, half lap)"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Applied Physics-1 Labs",
+      "topics": [
+        "Measure length and volume of cylinder, test tube, beaker using Vernier caliper",
+        "Determine diameter of wire, solid ball, thickness of cardboard using screw gauge",
+        "Determine radius of curvature of convex/concave mirror using spherometer",
+        "Verify triangle and parallelogram law of forces",
+        "Find coefficient of friction between wood and glass",
+        "Determine force constant of a spring using Hook's Law",
+        "Verify law of conservation of mechanical energy",
+        "Find moment of inertia of a flywheel",
+        "Find viscosity of glycerin by Stoke's law",
+        "Find coefficient of linear expansion of a rod",
+        "Determine atmospheric pressure using Fortin's barometer",
+        "Measure temperature using mercury thermometer and convert scales"
+      ]
+    },
+    {
+      "subject_name": "Applied Chemistry Lab",
+      "topics": [
+        "Preparation of standard solution (oxalic acid, KMnO4)",
+        "Determine strength of NaOH solution by titration",
+        "Standardization of KMnO4 and determine % of iron in hematite ore",
+        "Iodometric estimation of copper in copper pyrite ore",
+        "Volumetric estimation of total acid number (TAN) of oil",
+        "Estimation of total hardness and alkalinity of water using EDTA and H2SO4",
+        "Proximate analysis of coal: moisture and ash content",
+        "Determine conductivity of water",
+        "Determine iron content in cement using colorimeter",
+        "Determine calorific value of fuel using bomb calorimeter",
+        "Determine viscosity of lubricating oil using Redwood viscometer",
+        "Determine flash and fire point of oil using Able's flash point apparatus",
+        "Verify first law of electrolysis of copper sulfate",
+        "Construct and measure EMF of Daniel cell",
+        "Study effect of dissimilar metal combination"
+      ]
+    },
+    {
+      "subject_name": "Sports and Yoga",
+      "topics": [
+        "Introduction to Physical Education: Meaning, aims, objectives, trends",
+        "Olympic Movement: Ancient & Modern Olympics, symbols, ideals, awards (Dronacharya, Arjuna, Dhyan Chand, Khel Ratna)",
+        "Physical Fitness, Wellness & Lifestyle: Components of fitness, wellness, health threats, positive lifestyle",
+        "Anatomy & Physiology: Effect of exercise on body systems (Circulatory, Respiratory, Neuro-Muscular)",
+        "Kinesiology, Biomechanics & Sports: Newton's Laws of motion, friction in sports",
+        "Postures: Meaning, causes of bad posture, weight training pros/cons, common deformities (Knock Knee, Flat Foot, Lordosis, Kyphosis, Scoliosis) and corrective measures",
+        "Yoga: Meaning, importance, elements (Asanas, Pranayama, Meditation, Kriyas), asanas for concentration (Sukhasana, Tadasana, Padmasana, Shashankasana), Yogndira",
+        "Yoga for Lifestyle: Asanas for Hypertension, Obesity, Back Pain, Diabetes, Asthma",
+        "Training and Planning in Sports: Meaning of training, warming up, skill/technique, planning, tournament types (Knock-Out, League, Combination)",
+        "Psychology & Sports: Growth vs Development, adolescent problems, emotions, aggression in sports, psychological benefits of exercise, anxiety, fear, motivation, stress",
+        "Doping: Meaning, prohibited substances/methods, side effects",
+        "Sports Medicine: First Aid (definition, aims), sports injuries (classification, causes, prevention, management)",
+        "Sports/Games: History, rules, field specifications, equipment, tournaments, personalities, gear for one sport (Athletics, Badminton, Basketball, Chess, Cricket, Kabaddi, Tennis, Swimming, Table Tennis, Volleyball, Yoga)"
+      ]
+    },
+    {
+      "subject_name": "Communication Skills in English - Lab",
+      "units": [
+        {
+          "unit_title": "Listening Skills",
+          "topics": ["Listening Process and Practice", "Recorded lectures, poems, interviews, speeches", "Listening tests"]
+        },
+        {
+          "unit_title": "Introduction to Phonetics",
+          "topics": ["Sounds: consonant, vowel, diphthongs", "Transcription (IPA)", "Weak forms, syllable division, word stress, intonation, voice"]
+        },
+        {
+          "unit_title": "Speaking Skills",
+          "topics": ["Standard and formal speech", "Group discussion, oral presentations, public speaking, business presentations", "Conversation, role playing, mock interviews"]
+        },
+        {
+          "unit_title": "Building vocabulary",
+          "topics": ["Etymological study", "Phrasal verbs, foreign phrases, idioms", "Jargon/Register", "Word exercises and games"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Mathematics - II",
+      "units": [
+        {
+          "unit_title": "Determinants and Matrices",
+          "topics": ["Elementary properties of determinants (3rd order)", "Consistency of equations, Crammer's rule", "Algebra of matrices, Inverse of a matrix", "Matrix inverse method to solve linear equations (3 variables)"]
+        },
+        {
+          "unit_title": "Integral Calculus",
+          "topics": ["Integration as inverse operation", "Integration by substitution, by parts, by partial fractions (linear factors)", "Use of formulas ∫0π sinⁿx dx, ∫0π cosⁿx dx, ∫0π sinᵐx cosⁿx dx", "Applications: area bounded by curve and axes, volume by revolution (simple problems)"]
+        },
+        {
+          "unit_title": "Co-Ordinate Geometry",
+          "topics": ["Equation of straight line (standard forms)", "Intersection of lines, angle between lines, parallel/perpendicular lines, perpendicular distance", "General equation of a circle, finding equation given center/radius, three points, endpoints of diameter", "Conics (Parabola, Ellipse, Hyperbola): standard equations, problems on foci, directrix, vertex"]
+        },
+        {
+          "unit_title": "Vector Algebra",
+          "topics": ["Definition, notation, rectangular resolution", "Addition and subtraction of vectors", "Scalar and vector products", "Problems on work, moment, angular velocity"]
+        },
+        {
+          "unit_title": "Differential Equations",
+          "topics": ["First order and first degree differential equations", "Variable separation method", "Simple introduction to MATLAB"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Applied Physics -II",
+      "units": [
+        {
+          "unit_title": "Wave motion and its applications",
+          "topics": ["Wave motion: transverse and longitudinal", "Wave velocity, frequency, wavelength relationship", "Sound and light waves", "Wave equation (y = r sin ωt), amplitude, phase, phase difference", "Principle of superposition and beat formation", "Simple Harmonic Motion (SHM): definition, displacement, velocity, acceleration, time period", "Simple harmonic progressive wave and energy transfer", "Cantilever vibration and time period", "Free, forced and resonant vibrations", "Acoustics of buildings: reverberation, echo, noise, coefficient of absorption", "Ultrasonic waves: properties and applications"]
+        },
+        {
+          "unit_title": "Optics",
+          "topics": ["Reflection and refraction, refractive index", "Image formation by mirrors and lenses, lens formula, power, magnification", "Total internal reflection, critical angle, optical fibers", "Optical Instruments: simple and compound microscope, astronomical telescope, magnifying power, resolving power", "Optical projection systems"]
+        },
+        {
+          "unit_title": "Electrostatics",
+          "topics": ["Coulomb's law, unit of charge", "Electric field, lines of force, electric flux, electric potential", "Gauss law: application to straight conductor, plane sheet, charged sphere", "Capacitor: working, types, capacitance, parallel plate capacitor", "Series and parallel combination of capacitors", "Dielectric and its effect, dielectric breakdown"]
+        },
+        {
+          "unit_title": "Current Electricity",
+          "topics": ["Electric current, direct and alternating current", "Resistance, specific resistance, conductance", "Series and parallel combination of resistances", "Factors affecting resistance, carbon resistances and color coding", "Ohm's law and verification", "Kirchhoff's laws, Wheatstone bridge (slide wire bridge)", "Terminal potential difference and EMF", "Heating effect, electric power, electric energy (numericals)", "Advantages of Electric Energy"]
+        },
+        {
+          "unit_title": "Electromagnetism",
+          "topics": ["Types of magnetic materials: dia, para, ferromagnetic", "Magnetic field, intensity, lines of force, flux", "Electromagnetic induction, Faraday's Laws", "Lorentz force, force on current carrying conductor, force on rectangular coil", "Moving coil galvanometer: principle, construction, working", "Conversion of galvanometer into ammeter and voltmeter"]
+        },
+        {
+          "unit_title": "Semiconductor Physics",
+          "topics": ["Energy bands in solids", "Insulators, semiconductors, conductors", "Intrinsic and extrinsic semiconductors", "P-N junction, V-I characteristics, diode types", "Diode as rectifier: half wave and full wave (centre tapped)", "Transistor: description, types (pnp, npn), electronic applications", "Photocells, Solar cells: working principle and applications"]
+        },
+        {
+          "unit_title": "Modern Physics",
+          "topics": ["Lasers: energy levels, spontaneous/stimulated emission, population inversion, pumping, types (Ruby, He-Ne, semiconductor), characteristics, applications", "Fiber Optics: light propagation, acceptance angle, numerical aperture, fiber types, applications (telecommunication, medical, sensors)", "Nanoscience and Nanotechnology: nanoparticles, nanomaterials, properties at nanoscale, nanotechnology devices and applications"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Introduction to IT Systems",
+      "units": [
+        {
+          "unit_title": "Unit 1",
+          "topics": ["Basic Internet skills: browser, search engines", "Digital India portals (state, national, college)", "Computer hardware components: CPU, Memory, Display, Keyboard, Mouse, HDD, Peripheral Devices"]
+        },
+        {
+          "unit_title": "Unit 2",
+          "topics": ["OS Installation (Linux and MS Windows)", "Unix Shell and Commands", "vi editor"]
+        },
+        {
+          "unit_title": "Unit 3",
+          "topics": ["HTML4, CSS", "Making basic personal webpage"]
+        },
+        {
+          "unit_title": "Unit 4",
+          "topics": ["Office Tools: OpenOffice Writer, Spreadsheet (Calc), Impress"]
+        },
+        {
+          "unit_title": "Unit 5",
+          "topics": ["Information security best practices"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Fundamentals of Electrical and Electronics Engineering",
+      "units": [
+        {
+          "unit_title": "Overview of Electronic Components & Signals",
+          "topics": ["Passive and Active Components: Resistances, Capacitors, Inductors, Diodes, Transistors, FET, MOS, CMOS", "Signals: DC/AC, voltage/current, periodic/non-periodic, average, rms, peak values", "Signal waveforms, ideal/non-ideal sources, independent/dependent sources"]
+        },
+        {
+          "unit_title": "Overview of Analog Circuits",
+          "topics": ["Operational Amplifiers: Ideal Op-Amp, practical op-amp, open/closed loop configurations", "Applications: amplifier, adder, differentiator, integrator"]
+        },
+        {
+          "unit_title": "Overview of Digital Electronics",
+          "topics": ["Boolean Algebra", "Electronic Implementation of Boolean Operations, Gates", "Flip Flops, Counters (Ripple, Up/down, decade)", "Digital IC Gates (TTL Type)"]
+        },
+        {
+          "unit_title": "Electric and Magnetic Circuits",
+          "topics": ["EMF, Current, Potential Difference, Power, Energy", "M.M.F, magnetic force, permeability, hysteresis loop, reluctance, B-H curve", "Electromagnetic induction, Faraday's laws, Lenz's law", "Dynamically and Statically induced emf", "Self and mutual inductance", "Analogy between electric and magnetic circuits"]
+        },
+        {
+          "unit_title": "A.C. Circuits",
+          "topics": ["Cycle, Frequency, Time period, Amplitude, Angular velocity, RMS, Average value, Form Factor, Peak Factor, impedance, phase angle, power factor", "Mathematical and phasor representation of AC", "Star and Delta connections", "AC in resistors, inductors, capacitors", "R-L, R-C, R-L-C series and parallel circuits", "Power in AC circuits, power triangle"]
+        },
+        {
+          "unit_title": "Transformer and Machines",
+          "topics": ["General construction and principle of transformers", "Emf equation and transformation ratio", "Auto transformers", "Construction and working principle of motors", "Basic equations and characteristics of motors"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Engineering Mechanics",
+      "units": [
+        {
+          "unit_title": "Basics of mechanics and force system",
+          "topics": ["Statics, Dynamics", "Scalar and vector, SI units", "Force: unit, representation, characteristics, effects, transmissibility", "Force system classification", "Resolution of force, orthogonal components, moment of force, Varignon's Theorem", "Composition of forces: resultant, analytical methods for concurrent, non-concurrent, parallel co-planar forces", "Law of triangle, parallelogram, polygon of forces"]
+        },
+        {
+          "unit_title": "Equilibrium",
+          "topics": ["Equilibrium and Equilibrant", "Free body and Free body diagram", "Analytical and graphical methods", "Lami's Theorem", "Types of beam, supports (simple, hinged, roller, fixed), loads (point, UDL, couple)", "Beam reaction for cantilever, simply supported beam with/without overhang", "Graphical beam reaction"]
+        },
+        {
+          "unit_title": "Friction",
+          "topics": ["Types and laws of friction, limiting equilibrium, coefficient of friction", "Angle of friction, angle of repose", "Equilibrium on level surface (force parallel/inclined)", "Equilibrium on inclined plane (force parallel to plane)"]
+        },
+        {
+          "unit_title": "Centroid and centre of gravity",
+          "topics": ["Centroid of geometric plane figures (square, rectangle, triangle, circle, semicircle, quarter circle)", "Centroid of composite figures (max 3 figures)", "Centre of Gravity of simple solids (cube, cuboid, cone, cylinder, sphere, hemisphere)", "Centre of Gravity of composite solids (max 2 solids)"]
+        },
+        {
+          "unit_title": "Simple lifting machine",
+          "topics": ["Load, effort, mechanical advantage, velocity ratio, efficiency, law of machine", "Ideal machine, friction, maximum MA and efficiency", "Reversible and non-reversible machines", "Velocity ratios of Simple axle and wheel, Differential axle and wheel, Worm and worm wheel, Single/double purchase crab winch, Simple screw jack, Weston's differential pulley block, geared pulley block"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Applied Physics II Lab",
+      "topics": [
+        "Determine time period of a cantilever",
+        "Determine velocity of ultrasonic in liquids using interferometer",
+        "Verify laws of reflection",
+        "Verify Snell's law using glass slab",
+        "Determine focal length and magnifying power of convex lens",
+        "Verify Ohm's law",
+        "Verify laws of resistances in series and parallel",
+        "Find frequency of AC main using electrical vibrator",
+        "Verify Kirchhoff's law",
+        "Study dependence of capacitance of parallel plate capacitor",
+        "Find resistance of galvanometer by half deflection method",
+        "Convert galvanometer into ammeter",
+        "Convert galvanometer into voltmeter",
+        "Draw V-I characteristics of semiconductor diode (Ge, Si)",
+        "Verify inverse square law using photo-electric cell",
+        "Measure wavelength of He-Ne/diode laser using diffraction grating",
+        "Measure numerical aperture (NA) of optical fiber"
+      ]
+    },
+    {
+      "subject_name": "Introduction to IT Systems Lab",
+      "topics": [
+        "Browser features, browsing, search engines, writing queries",
+        "Visit e-governance/Digital India portals",
+        "Read Wikipedia on hardware components, identify ports and cables",
+        "Install Linux and Windows OS",
+        "Connect peripherals (printer, scanner), explore drivers",
+        "Practice HTML commands, make own webpage",
+        "Explore Open Office tools (Writer, Calc, Impress)",
+        "Explore security features of OS and Tools"
+      ]
+    },
+    {
+      "subject_name": "Fundamentals of Electrical and Electronics Engineering Lab",
+      "topics": [
+        "Determine permeability of magnetic material (B-H curve)",
+        "Measure voltage, current, power in 1-phase circuit with resistive load",
+        "Measure voltage, current, power in R-L series circuit",
+        "Determine transformation ratio (K) of 1-phase transformer",
+        "Connect single phase transformer and measure input/output",
+        "Make Star and Delta connection in motor starters",
+        "Identify passive electronic components",
+        "Connect resistors in series/parallel on breadboard",
+        "Connect capacitors in series/parallel on breadboard",
+        "Identify active electronic components",
+        "Measure resistor value using multimeter",
+        "Measure capacitor and inductor value using LCR-Q meter",
+        "Confirm resistor value using color code",
+        "Test PN-junction diodes using multimeter",
+        "Test performance of PN-junction diode",
+        "Test performance of Zener diode",
+        "Test performance of LED",
+        "Identify transistor terminals using multimeter",
+        "Test performance of NPN transistor",
+        "Determine current gain of CE transistor configuration",
+        "Test transistor switch circuit",
+        "Test transistor amplifier circuit",
+        "Test Op-Amp as amplifier and Integrator"
+      ]
+    },
+    {
+      "subject_name": "Engineering Mechanics Lab",
+      "topics": [
+        "Study equipments related to Engineering Mechanics",
+        "Find M.A., V.R., Efficiency for Differential Axle and Wheel",
+        "Find M.A., V.R., Efficiency for Simple Screw Jack",
+        "Derive Law of machine using Worm and worm wheel",
+        "Derive Law of machine using Single purchase crab",
+        "Derive Law of machine using Double purchase crab",
+        "Derive Law of machine using Weston's differential pulley block",
+        "Determine resultant of concurrent force system (Force table)",
+        "Determine resultant of concurrent force system (Graphical)",
+        "Determine resultant of parallel force system (Graphical)",
+        "Verify Lami's theorem",
+        "Study forces in Jib crane members",
+        "Determine support reactions for simply supported beam",
+        "Obtain support reactions of beam using graphical method",
+        "Determine coefficient of friction (horizontal/inclined plane)",
+        "Determine centroid of geometrical plane figures"
+      ]
+    },
+    {
+      "subject_name": "Environmental Science",
+      "units": [
+        {
+          "unit_title": "Ecosystem",
+          "topics": ["Structure of ecosystem, biotic/abiotic components", "Food chain and food web", "Aquatic (Lentic/Lotic) and terrestrial ecosystem", "Carbon, Nitrogen, Sulphur, Phosphorus cycle", "Global warming: causes, effects, process, Green House Effect, Ozone depletion"]
+        },
+        {
+          "unit_title": "Air and Noise Pollution",
+          "topics": ["Pollution and pollutant", "Sources of air pollution (Refrigerants, IC, Boiler)", "Air Pollutants: types, particulate pollutants (effects and control: Bag filter, Cyclone, ESP)", "Gaseous Pollution Control: Absorber, Catalytic Converter", "Noise pollution: sources, measurement, effects, Noise Pollution Rules, 2000"]
+        },
+        {
+          "unit_title": "Water and Soil Pollution",
+          "topics": ["Sources and types of water pollutants", "Characteristics: Turbidity, pH, TSS, BOD, COD (definition, calculation)", "Waste Water Treatment: Primary (sedimentation, froth floatation), Secondary (Activated sludge, Trickling filter, Bioreactor), Tertiary (Membrane separation, RO)", "Soil Pollution: causes (fertilizers, pesticides, e-waste), effects, preventive measures"]
+        },
+        {
+          "unit_title": "Renewable sources of Energy",
+          "topics": ["Solar Energy: Basics, flat plate collector, solar pond, water heater, dryer, stills", "Biomass: overview, thermal characteristics, anaerobic digestion, biogas", "Wind energy: status in India, environmental benefits/problems", "New Energy Sources: Hydrogen, Ocean, Tidal, Geothermal energy"]
+        },
+        {
+          "unit_title": "Solid Waste Management, ISO 14000 & Environmental Management",
+          "topics": ["Solid waste generation: sources and characteristics of municipal, e-waste, biomedical, metallic/non-metallic wastes", "Collection and disposal: 3R principles, energy recovery, sanitary landfill", "Air quality act 2004, Air pollution control act 1981, Water pollution act 1996", "Structure of Central and state pollution control board", "Carbon Credit, Carbon Footprint", "Environmental management in fabrication industry", "ISO14000: implementation and benefits"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Principles of Electronic Communication",
+      "units": [
+        {
+          "unit_title": "ANALOG MODULATION",
+          "topics": ["Concept of frequency translation", "Amplitude Modulation: Full AM, DSBSC, SSB, VSB (time/frequency domains), generation & demodulation", "FM signal (time/frequency domains)"]
+        },
+        {
+          "unit_title": "PULSE ANALOG MODULATION",
+          "topics": ["Ideal sampling, Sampling theorem, aliasing, interpolation", "Natural and flat top sampling (time/frequency domains)"]
+        },
+        {
+          "unit_title": "DIGITAL MODULATION",
+          "topics": ["Baseband transmission: Line coding (RZ, NRZ), ISI, pulse shaping, Nyquist criterion, raised cosine spectrum", "Passband transmission: Geometric interpretation of signals, orthogonalization"]
+        },
+        {
+          "unit_title": "SPREAD-SPECTRUM MODULATION",
+          "topics": ["Pseudo-Noise sequences", "Direct sequence spread spectrum (DSSS) with coherent BPSK", "Processing gain, probability of error", "Frequency-hop spread spectrum (FHSS)", "Application: CDMA"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Principles of Electronic Communications Lab",
+      "topics": [
+        "Harmonic analysis of square wave of modulated waveform",
+        "Modulate high frequency carrier to obtain FM",
+        "Study and observe operation of super heterodyne receiver",
+        "Modulate pulse carrier to obtain PWM and demodulate",
+        "Modulate pulse carrier to obtain PPM and demodulate",
+        "Observe PAM waveform and demodulation",
+        "Observe operation of PCM encoder and decoder",
+        "Study amplitude response of automatic gain controller (AGC)"
+      ]
+    },
+    {
+      "subject_name": "Electronics Devices and Circuits",
+      "units": [
+        {
+          "unit_title": "Semiconductor and Diodes",
+          "topics": ["Extrinsic/Intrinsic, N-type & p-type", "PN Junction Diode: Forward/Reverse Bias Characteristics", "Zener Diode: principle, characteristics", "Diode Rectifiers: Half Wave and Full Wave", "Filters: C, LC and PI Filters"]
+        },
+        {
+          "unit_title": "Bipolar Junction Transistor (BJT)",
+          "topics": ["NPN and PNP Transistor: operation and characteristics", "Common Base and Common Emitter configurations", "High frequency model of BJT", "Classification of amplifiers, negative feedback"]
+        },
+        {
+          "unit_title": "Field Effect Transistors",
+          "topics": ["FET: Working Principle, Classification", "MOSFET: Small Signal model, N-Channel/P-Channel (enhancement/depletion), MOSFET as Switch", "Common Source Amplifiers", "Uni-Junction Transistor (UJT)"]
+        },
+        {
+          "unit_title": "SCR DIAC & TRIAC",
+          "topics": ["SCR: Construction, operation, characteristics", "DIAC: Construction, operation, characteristics", "TRIAC: Construction, operation, characteristics", "SCR and MOSFET as Switch, DIAC as bidirectional switch", "Comparison of SCR, DIAC, TRIAC, MOSFET"]
+        },
+        {
+          "unit_title": "Amplifiers and Oscillators",
+          "topics": ["Feedback Amplifiers: properties of negative feedback, impact on parameters", "Basic Feedback Amplifier Topologies: Voltage Series, Voltage Shunt, Current Series, Current Shunt", "Oscillator: Basic Principles, Crystal Oscillator, Non-linear/Pulse Oscillator"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Electronic Devices and Circuits Lab",
+      "topics": [
+        "Plot VI characteristics of PN Junction Diode, find cut-in voltage",
+        "Plot characteristics of Zener Diode, find breakdown voltage",
+        "Construct Half Wave Rectifier with/without filters",
+        "Construct Full Wave Rectifier with/without filters",
+        "Construct Bridge Rectifier with/without filters",
+        "Obtain characteristics of DIAC and TRIAC",
+        "Simulate half wave, full wave, bridge rectifier (PSpice/Orcad/Multisim)",
+        "Simulate Voltage Series and Voltage Shunt Feedback Amplifiers",
+        "Develop circuits for Voltage Series and Voltage Shunt Feedback Amplifiers",
+        "Simulate Current Series and Current Shunt Feedback Amplifiers",
+        "Develop circuits for Current Series and Current Shunt Feedback Amplifiers"
+      ]
+    },
+    {
+      "subject_name": "Digital Electronics",
+      "units": [
+        {
+          "unit_title": "Number Systems & Boolean Algebra",
+          "topics": ["Binary, Octal, Decimal, Hexadecimal conversion", "Boolean variables, rules and laws, De-Morgan's Theorem", "Karnaugh Maps for simplification"]
+        },
+        {
+          "unit_title": "Logic Gates",
+          "topics": ["AND, OR, NOT, NAND, NOR, XOR, XNOR: symbols, truth table", "Implementation of Boolean expressions using gates"]
+        },
+        {
+          "unit_title": "Combinational Logic Circuits",
+          "topics": ["Arithmetic Circuits: Addition, Subtraction, 1's 2's complement, Half/Full Adder, Half/Full Subtractor, Series/Parallel Adders", "Encoder, Decoder", "Multiplexer (2:1, 4:1, 8:1) and Demultiplexer (1:2, 1:4, 1:8)"]
+        },
+        {
+          "unit_title": "Sequential Logic Circuits",
+          "topics": ["Flip Flops: SR, JK, T, D, JK-MS, Triggering", "Counters: 4-bit Up/Down, Asynchronous/Ripple, Decade, Mod 3/7, Johnson, Ring", "Registers: 4-bit Shift Register (SISO, SIPO, PISO, PIPO)"]
+        },
+        {
+          "unit_title": "Memory Devices",
+          "topics": ["RAM Organization: Static RAM, Bipolar RAM, Dynamic RAM, DDR RAM", "ROM Organization: PROM, EPROM, EEPROM, Flash memory", "Data Converters: DAC, ADC"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Digital Electronics Lab",
+      "topics": [
+        "Verify truth tables for logic gates (CMOS/TTL)",
+        "Implement and realize Boolean expressions with logic gates",
+        "Implement Half/Full Adder, Half/Full Subtractor using ICs",
+        "Implement parallel and serial full-adder using ICs",
+        "Design Multiplexer and De-multiplexer using ICs",
+        "Verify function of SR, D, JK, T Flip Flops",
+        "Design controlled shift registers",
+        "Construct single digit Decade Counter (0-9) with 7-segment display",
+        "Design programmable Up-Down Counter with 7-segment display",
+        "Study different memory ICs",
+        "Study DAC and ADC",
+        "Simulate ADC (PSpice)"
+      ]
+    },
+    {
+      "subject_name": "Electronic Measurement and Instrumentation",
+      "units": [
+        {
+          "unit_title": "Basics of Measurements and Bridges",
+          "topics": ["Accuracy, Precision, Resolution", "Types of Errors", "DC Bridges: Wheatstone, Kelvin Double Bridge", "AC Bridges: Maxwell's, Hay's, Anderson, De-Sauty's Bridge"]
+        },
+        {
+          "unit_title": "Potentiometer",
+          "topics": ["Basic DC slide wire Potentiometer", "Crompton's DC Potentiometer and applications", "AC Potentiometers and applications"]
+        },
+        {
+          "unit_title": "Measuring Instruments",
+          "topics": ["PMMC Instruments", "Moving Iron type Instruments (MI)", "Electro Dynamo Type Instruments", "Single Phase Energy Meter"]
+        },
+        {
+          "unit_title": "Electronic Instruments",
+          "topics": ["Electronic Voltmeter and Digital Voltmeter", "Electronic Multimeters", "Q-Meter", "Vector Impedance Meter"]
+        },
+        {
+          "unit_title": "Oscilloscopes",
+          "topics": ["Cathode Ray Tube (CRT): construction, operation", "Vertical/Horizontal deflection system, Delay line", "Measurement of frequency, time delay, phase angle, modulation index", "Oscilloscope probes (1:1, 10:1)", "Multiple Trace CRO"]
+        },
+        {
+          "unit_title": "Transducers",
+          "topics": ["Classification, selection criteria, characteristics", "RTD, Thermocouple, Thermistor", "LVDT, Strain Gauge, Load Cell", "Piezoelectric Transducers"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Electronic Measurements and Instrumentation Lab",
+      "topics": [
+        "Measure unknown inductance using Anderson and Maxwell Bridge",
+        "Measure Low resistance by Kelvin's Double Bridge",
+        "Calibrate ammeter using DC slide wire potentiometer",
+        "Calibrate voltmeter using Crompton potentiometer",
+        "Measure low resistance by Crompton potentiometer",
+        "Calibrate single-phase energy meter by phantom loading",
+        "Study Q-meter and measure Q of coils",
+        "Study working of C.R.O., Digital Storage C.R.O., and probes",
+        "Measure displacement with LVDT",
+        "Draw characteristics of RTD (Pt-100) and Thermistor",
+        "Measure strain/force with strain gauge load cell"
+      ]
+    },
+    {
+      "subject_name": "Electric Circuits & Network",
+      "units": [
+        {
+          "unit_title": "Basics of Network and Network Theorem",
+          "topics": ["Node and Mesh Analysis", "Superposition, Thevenin, Norton, Maximum Power Transfer, Reciprocity Theorems"]
+        },
+        {
+          "unit_title": "Graph Theory",
+          "topics": ["Graph of network, tree, incidence matrix", "F-Tie Set and F-Cut Set Analysis", "Analysis of resistive network using cut-set and tie-set", "Duality"]
+        },
+        {
+          "unit_title": "Time Domain and Frequency Domain Analysis",
+          "topics": ["Solution of first/second order diff. equations for R-L, R-C, R-L-C circuits", "Initial and Final conditions, Forced/Free response, time constants", "Steady State and Transient State Response", "Laplace Transform analysis for standard inputs"]
+        },
+        {
+          "unit_title": "Fourier Series and Transform",
+          "topics": ["Trigonometric and exponential Fourier series", "Discrete spectra and symmetry", "Steady state response to non-sinusoidal inputs, power factor, effective values", "Fourier transform and continuous spectra"]
+        },
+        {
+          "unit_title": "Two Port Network",
+          "topics": ["Open Circuit Impedance (Z) Parameters", "Short Circuit Admittance (Y) Parameters", "Transmission (ABCD) Parameters", "Hybrid (h) Parameters", "Interrelationship and Interconnection of Two Port Networks"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Microcontroller and Applications",
+      "units": [
+        {
+          "unit_title": "Introduction",
+          "topics": ["Microprocessors vs Microcontrollers", "Architectures (8085, 8086)", "Intel MCS-51 family features", "8051 organization and architecture"]
+        },
+        {
+          "unit_title": "Programming with 8051",
+          "topics": ["Instruction set, addressing modes", "Conditional instructions, I/O Programming", "Arithmetic logic instructions, single bit instructions", "Interrupt handling, programming counters, timers, stack"]
+        },
+        {
+          "unit_title": "MCS51 and external Interfaces",
+          "topics": ["User interface: keyboard, LCD, LED", "Real world interface: ADC, DAC, SENSORS", "Communication interface"]
+        },
+        {
+          "unit_title": "C programming with 8051",
+          "topics": ["I/O Programming, Timers/counters", "Serial Communication, Interrupt", "User Interfaces: LCD, Keypad, LED, RS232"]
+        },
+        {
+          "unit_title": "ARM processor core based microcontrollers",
+          "topics": ["Need for RISC Processor", "ARM processor fundamentals", "ARM core based controller (LPC214X)", "IO ports, ADC/DAC, Timers"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Microcontroller and Applications Lab",
+      "topics": [
+        "Programming 8051 using ASM and C",
+        "Arithmetic logic instructions (Assembly)",
+        "Programming constructs (Sorting array) (Assembly)",
+        "Programming using Ports (Assembly and C)",
+        "Delay generation using Timer (Assembly and C)",
+        "Programming Interrupts (Assembly and C)",
+        "Implement UART communication (hyper terminal)",
+        "Interfacing LCD Display",
+        "Interfacing Keypad",
+        "Programming ADC/DAC",
+        "Interfacing stepper motor",
+        "Pulse Width Modulation",
+        "Programming ARM Microcontroller (ASM and C)",
+        "Arithmetic logic instructions (ARM Assembly)",
+        "GPIO programming in ARM (C)",
+        "Timers programming in ARM (C)"
+      ]
+    },
+    {
+      "subject_name": "Consumer Electronics",
+      "units": [
+        {
+          "unit_title": "Audio Fundamentals and Devices",
+          "topics": ["Characteristics of sound signal, audio level metering, decibel", "Microphone types, speaker types and working principle", "Sound recording principle and types"]
+        },
+        {
+          "unit_title": "Audio Systems",
+          "topics": ["CD player, home theatre sound system, surround sound", "Digital console: block diagram, working, applications", "FM tuner, ICs (TDA 7021T)", "PA address system"]
+        },
+        {
+          "unit_title": "Television Systems",
+          "topics": ["Monochrome TV standards, scanning, aspect ratio, persistence of vision, flicker, interlaced scanning", "Composite video signal", "Colour TV standards, colour theory (hue, brightness, saturation, luminance, chrominance)", "TV camera types, transmission standards"]
+        },
+        {
+          "unit_title": "Television Receivers and Video Systems",
+          "topics": ["PAL-D colour TV receiver", "Digital TVs: LCD, LED, PLASMA, HDTV, 3-D TV, projection TV", "DTH receiver", "Video interface: SDI, HDMI, DVI", "CD and DVD player"]
+        },
+        {
+          "unit_title": "Home / Office Appliances",
+          "topics": ["Diagrams, operating principles and controllers for FAX, Photocopier, Microwave Oven, Washing Machine, Air conditioner, Refrigerators", "Digital camera and camcorder"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Digital Communication Systems",
+      "units": [
+        {
+          "unit_title": "UNIT 1",
+          "topics": ["Block diagram of digital communication system", "Sampling of low-pass and band-pass signals, PAM, PCM, quantization noise analysis", "Line codes, bandwidth considerations", "PCM TDM hierarchies, frame structures, synchronization, bit stuffing"]
+        },
+        {
+          "unit_title": "UNIT 2",
+          "topics": ["Quantization noise analysis of DM and ADM", "DPCM and ADPCM, low bit rate coding of speech/video", "Baseband transmission, matched filter, performance in AWGN", "ISI, Nyquist criterion, roll-off filtering, correlative coding, equalizers", "Digital subscriber lines"]
+        },
+        {
+          "unit_title": "UNIT 3",
+          "topics": ["Geometric representation of signals, maximum likelihood decoding", "Correlation receiver, equivalence with matched filter", "Generation, detection, error probability of OOK, BPSK, coherent/non-coherent FSK, QPSK, DPSK, QAM, MSK, multicarrier modulation", "Comparison of bandwidth and bit rate"]
+        },
+        {
+          "unit_title": "UNIT 4",
+          "topics": ["Information Theory: Shannon entropy, differential entropy, mutual information, channel capacity", "Coding Theory: linear block codes (Hamming, RS, Concatenated), bounds on minimum distance", "Convolutional codes: structure, Viterbi and BCJR algorithms", "Turbo codes, LDPC codes"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Digital Communication Systems Lab",
+      "topics": [
+        "Pulse Code Modulation and Differential PCM",
+        "Delta Modulation and Adaptive Delta modulation",
+        "Simulation of Band Pass Signal Transmission (ASK, FSK, PSK)",
+        "Performance Analysis of Band Pass Signals (ASK, FSK, PSK)",
+        "Implementation of ASK",
+        "Implementation of FSK",
+        "Implementation of PSK",
+        "Time Division Multiplexing: PLL (CD4046) based sync, clock and data extraction"
+      ]
+    },
+    {
+      "subject_name": "Electronic Equipment Maintenance",
+      "units": [
+        {
+          "unit_title": "Fundamental Troubleshooting Procedures",
+          "topics": ["Reading drawings: Block, Circuit, Wiring diagrams", "Disassembly/reassembly, equipment failures, nature of faults", "Fault location aids: manuals, test instruments, troubleshooting techniques", "Grounding systems, intermittent problems, corrective actions"]
+        },
+        {
+          "unit_title": "Passive Components and Their Testing",
+          "topics": ["Failures and testing of resistors, potentiometers, LDRs, thermistors", "Capacitor performance, failures, testing, precautions", "Testing of inductors"]
+        },
+        {
+          "unit_title": "Testing of Semiconductor Devices",
+          "topics": ["Causes and types of failure", "Test procedures for Diodes, BJT, FET, Thyristors, Op-amps", "Fault diagnosis in op-amp circuits"]
+        },
+        {
+          "unit_title": "Logic ICs and Digital Troubleshooting",
+          "topics": ["Logic IC families, packages, handling", "Digital troubleshooting methods, testing with pulse generators", "Logic probes, pulsers, current tracers, comparators", "Testing flip-flops, counters, registers, multiplexers, decoders", "Tri-state logic"]
+        },
+        {
+          "unit_title": "Rework and Repair of Surface Mount Assemblies",
+          "topics": ["Surface Mount Technology (SMT)/Devices (SMD)", "SMD semiconductor packages: SOIC, SOT, LCCC, BGA, COB, Flatpacks, QFP", "SMD passive components", "Repairing SMD PCBs, rework stations"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Linear Integrated Circuits",
+      "units": [
+        {
+          "unit_title": "IC Fabrication and Circuit Configuration",
+          "topics": ["Advantages of ICs, monolithic process", "Monolithic bipolar transistor, diodes, resistors, capacitors", "Current mirrors, sources, active loads, voltage references", "BJT differential amplifier, op-amp stages (IC 741)", "DC/AC performance, slew rate, open/closed loop configurations"]
+        },
+        {
+          "unit_title": "Applications of Operational Amplifiers",
+          "topics": ["Sign/Scale changer, phase shift circuits, voltage follower", "V-to-I and I-to-V converters, adder, subtractor, instrumentation amplifier", "Integrator, differentiator, log/antilog amplifier", "Comparators, Schmitt trigger, precision rectifier, peak detector, clipper/clamper", "Active filters (LPF, HPF, BPF)"]
+        },
+        {
+          "unit_title": "Analog Multiplier and PLL",
+          "topics": ["Analog multiplier (Gilbert cell)", "Basic PLL operation, closed loop analysis, VCO", "Monolithic PLL IC 565", "Applications of PLL: AM/FM detection, FSK modulation/demodulation, frequency synthesizing"]
+        },
+        {
+          "unit_title": "ADC and DAC",
+          "topics": ["DAC specifications: weighted resistor, R-2R ladder (voltage/current mode)", "Sample-and-hold circuits", "ADC specifications: Flash, Successive Approximation, Single/Dual Slope, Oversampling"]
+        },
+        {
+          "unit_title": "Waveform generators and special function ICs",
+          "topics": ["Sine/triangle/sawtooth wave generators, ICL8038", "Timer IC 555", "Voltage regulators: 3-terminal fixed/adjustable, IC 723, switching regulator", "Switched capacitor filter (MF10), F/V and V/F converters", "Audio/Video amplifier, Isolation amplifier, Opto-couplers"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Electronic Devices and Circuits Practical",
+      "topics": [
+        "Op-Amp (IC741): Characteristics and Applications",
+        "Waveform Generation using Op-Amp (IC741)",
+        "Applications of Timer IC555",
+        "Design of Active filters",
+        "Study and application of PLL ICs",
+        "Design of binary adder and subtractor",
+        "Design of counters",
+        "Study of multiplexer and demultiplexer/decoders",
+        "Implementation of combinational logic circuits",
+        "Study of DAC and ADC",
+        "Op-Amp voltage Regulator (IC 723)"
+      ]
+    },
+    {
+      "subject_name": "Embedded Systems",
+      "units": [
+        {
+          "unit_title": "Embedded C basics operators for Arduino",
+          "topics": ["Arduino IDE, sketch design", "Serial port communication", "Boolean, pointer, bitwise, compounded operations"]
+        },
+        {
+          "unit_title": "Embedded C control structure blocks",
+          "topics": ["Looping: for, do, while", "Branching based on conditions"]
+        },
+        {
+          "unit_title": "Introduction to Arduino Mega",
+          "topics": ["Specifications: power, digital/analog peripherals", "C vs Embedded C", "Arduino Mega Ports and Pins"]
+        },
+        {
+          "unit_title": "Communication with Arduino",
+          "topics": ["Communication modules", "Communication interface"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Embedded Systems Lab",
+      "topics": [
+        "Built-in LED state control by push button",
+        "Built-in LED blinking sketch",
+        "Built-in LED blinking by toggling states (binary op)",
+        "Built-in LED control via serial port user interface",
+        "User interface for boolean/bitwise operations via serial port",
+        "User interface for compounded operations via serial port",
+        "Looping to check pin state and print to serial port",
+        "Control multiple LEDs with loop and array",
+        "Use potentiometer to control LED blinking",
+        "Use analog output (PWM) to fade an LED",
+        "Servo Motor Control using PWM",
+        "Temperature sensor interfacing and reading over serial port",
+        "I2C light sensor interfacing and reading over serial port"
+      ]
+    },
+    {
+      "subject_name": "Mobile and Wireless Communication",
+      "units": [
+        {
+          "unit_title": "Overview of Cellular Systems",
+          "topics": ["Evolution (2G/3G/4G/5G)", "Cellular Concepts: Frequency reuse, Co-channel and Adjacent channel interference"]
+        },
+        {
+          "unit_title": "Wireless propagation",
+          "topics": ["Link budget, Free-space path loss, Noise figure", "Multipath fading, Shadowing, Fading margin, Shadowing margin"]
+        },
+        {
+          "unit_title": "Antenna diversity, wireless channel capacity and MIMO"
+        },
+        {
+          "unit_title": "Overview of CDMA, OFDM and LTE"
+        }
+      ]
+    },
+    {
+      "subject_name": "Mobile and Wireless Communication Lab",
+      "topics": [
+        "Understand cellular frequency reuse concept",
+        "Understand path loss with/without shadowing",
+        "Understand Flat fading and Frequency selective fading",
+        "Understand Multipath channel (No Fading, Flat, Dispersive)",
+        "Simulate dipole antenna (λ, λ/4, λ/2, 3λ/2) using 4NEC2",
+        "Experiments using CDMA trainer kit: PSK modulation/demodulation, Bit sync extraction, Error correction encoding"
+      ]
+    },
+    {
+      "subject_name": "Industrial Automation",
+      "units": [
+        {
+          "unit_title": "Industrial automation overview and data acquisition",
+          "topics": ["Architecture of Industrial Automation Systems", "Measurement Systems Characteristics", "Data Acquisition Systems"]
+        },
+        {
+          "unit_title": "Control Generation",
+          "topics": ["Introduction to Automatic Control", "P-I-D Control, Feedforward Control, Ratio Control"]
+        },
+        {
+          "unit_title": "Sequential control and PLC",
+          "topics": ["Sequence Control, PLC, Relay Ladder Logic (RLL)", "PLC Hardware Environment"]
+        },
+        {
+          "unit_title": "Industrial control application",
+          "topics": ["Hydraulic Control Systems", "Pneumatic Control Systems", "Energy Savings with Variable Speed Drives", "Introduction to CNC Machines"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Industrial Automation lab",
+      "topics": [
+        "Develop data acquisition system using Arduino",
+        "Temperature control system using PID",
+        "Level control system based on error feedback",
+        "PLC programming using RLL for AND, OR, XOR, NOR",
+        "PLC RLL programming using CASCADE method",
+        "PLC timer, counter, registers, analog I/O functions",
+        "Variable Speed drive of induction motor",
+        "PLC/microcontroller based CNC machine job completion"
+      ]
+    },
+    {
+      "subject_name": "Microwave and Radar",
+      "units": [
+        {
+          "unit_title": "Introduction to Microwaves",
+          "topics": ["History and applications", "Mathematical Model, transmission modes, waveguides, impedance matching", "Microwave Network Analysis"]
+        },
+        {
+          "unit_title": "Passive and Active Microwave Devices",
+          "topics": ["Directional Coupler, Power Divider, Attenuator, Resonator", "Active components: Diodes, Transistors, Microwave Tubes"]
+        },
+        {
+          "unit_title": "Microwave Design Principles",
+          "topics": ["Microwave Filter, Amplifier, Mixer, Oscillator Design", "Microwave Antennas"]
+        },
+        {
+          "unit_title": "Microwave Measurements, Systems, and Effects on human body"
+        }
+      ]
+    },
+    {
+      "subject_name": "Microwave and RADAR Lab",
+      "topics": [
+        "Study wave guide components",
+        "Study characteristics of Gunn oscillator/diode",
+        "Introduction to Smith chart for impedance measurement",
+        "Study impedance matching for passive networks using Smith chart",
+        "Study loss and attenuation measurement of attenuator",
+        "Construct cavity resonator in waveguide and study characteristics",
+        "Determine frequency and wavelength in rectangular waveguide (TE10 mode)"
+      ]
+    },
+    {
+      "subject_name": "Computer Networking and Data Communication",
+      "units": [
+        {
+          "unit_title": "Introduction to data communication",
+          "topics": ["Analog/digital signals, bandwidth", "OSI and TCP/IP models", "Types of networks: PAN, LAN, MAN, WAN, Internetwork", "Network Topologies: Point-to-Point, Bus, Star, Ring, Mesh, Tree, Daisy Chain, Hybrid", "Transmission media (wired/wireless)"]
+        },
+        {
+          "unit_title": "Digital & Analog Transmission",
+          "topics": ["Digital Transmission: Line coding (Unipolar, Polar, Bipolar), Block Coding", "Analog Transmission: A/D conversion, D/A conversion, A/A conversion", "Sampling, Quantization, Encoding, Transmission Modes"]
+        },
+        {
+          "unit_title": "Wireless Communication",
+          "topics": ["Radio, Microwave, Infrared, Light Transmission", "Wireless Communication Standards, characterization of wireless channel", "Mobility Management (Mobile IP), Mobile Ad hoc Networks (MANET)", "Ad hoc Routing Protocols (DSR, CBRP), Cluster Techniques", "Space time Coding"]
+        },
+        {
+          "unit_title": "Data Link Layer Technologies",
+          "topics": ["Network Routing, Network Layer Protocols", "FDM, TDM, CDMA", "Circuit/Packet switching, Frame relay, ATM, ISDN", "LAN protocols, Fibre optic networks, Satellite networks", "Data link layer functions, protocols, error detection/correction", "Internet Protocol, Routing algorithms, Congestion control, IP addressing, Subnetting"]
+        },
+        {
+          "unit_title": "Transmission Media & Transmission Control protocol",
+          "topics": ["Magnetic Media, Twisted Pair, Coaxial Cable, Power Lines, Fiber Optics", "TCP: Features, Header, Addressing, Connection Management, Error/Flow Control, Multiplexing, Congestion Control, Timer Management, Crash Recovery"]
+        }
+      ]
+    },
+    {
+      "subject_name": "Computer Networking and Data Communication Lab",
+      "topics": [
+        "Study different physical equipment used for networking",
+        "Study different internetworking devices",
+        "Study basic networking commands",
+        "Study PC to PC communication using parallel port",
+        "Study LAN in Star Topology",
+        "Study LAN in Bus Topology",
+        "Study LAN in Tree Topology",
+        "Study and configure modem",
+        "Study wireless communication",
+        "Study PC Communication using LAN"
+      ]
+    }
+  ]
+}
