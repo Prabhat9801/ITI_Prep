@@ -3,7 +3,7 @@ from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from database.database import get_db
-from database.models import Question, Subject, Topic
+from database.models import Question, Subject, Topic, Subtopic
 from engine.ai_providers import get_available_providers, reload_providers
 from engine.teaching import generate_quiz
 import random
@@ -16,6 +16,7 @@ class QuizRequest(BaseModel):
     topic: str
     subject_id: int | None = None
     topic_id: int | None = None
+    subtopic_id: int | None = None
     count: int = 5
     difficulty: str = "mixed"
     provider: str = "auto"
@@ -88,27 +89,37 @@ def generate_quiz_endpoint(data: QuizRequest, db: Session = Depends(get_db)):
         
         # Save to DB to organically grow the question bank
         try:
-            # Find subject and topic IDs (use provided ones or match by name)
+            # Find subject, topic, and subtopic IDs
             s_id = data.subject_id
             t_id = data.topic_id
+            st_id = data.subtopic_id
             
             if not s_id:
                 subject_obj = db.query(Subject).filter(Subject.name.ilike(f"%{data.subject}%")).first()
                 if subject_obj:
                     s_id = subject_obj.id
             
-            if not t_id and s_id:
-                # Try smarter matching for topic name (remove symbols and compare)
-                clean_topic = "".join(e for e in data.topic if e.isalnum()).lower()
-                topic_obj = db.query(Topic).filter(Topic.subject_id == s_id).filter(Topic.name.ilike(f"%{data.topic[:20]}%")).first()
-                if topic_obj:
-                    t_id = topic_obj.id
-
-            # ONLY add if we have both IDs (required by DB schema)
+            if s_id and not (t_id and st_id):
+                # Try smarter matching if IDs are missing
+                if not st_id:
+                    # Try matching as a Subtopic first
+                    st_match = db.query(Subtopic).join(Topic).filter(Topic.subject_id == s_id).filter(Subtopic.name.ilike(f"%{data.topic[:30]}%")).first()
+                    if st_match:
+                        st_id = st_match.id
+                        if not t_id: t_id = st_match.topic_id
+                
+                if not t_id:
+                    # Try matching as a Topic directly
+                    t_match = db.query(Topic).filter(Topic.subject_id == s_id).filter(Topic.name.ilike(f"%{data.topic[:30]}%")).first()
+                    if t_match:
+                        t_id = t_match.id
+            
+            # ONLY add if we have required IDs
             if s_id and t_id:
                 new_db_question = Question(
                     subject_id=s_id,
                     topic_id=t_id,
+                    subtopic_id=st_id,
                     question_text=q["q"],
                     option_a=options[0][1],
                     option_b=options[1][1],
@@ -124,7 +135,7 @@ def generate_quiz_endpoint(data: QuizRequest, db: Session = Depends(get_db)):
                 )
                 db.add(new_db_question)
             else:
-                print(f"DEBUG: Skipping organic save for '{data.topic}' - Subject/Topic IDs not found.")
+                print(f"DEBUG: Skipping organic save for '{data.topic}' - Subject/Topic IDs not found (S:{s_id}, T:{t_id}).")
         except Exception as e:
             print(f"Error saving AI question to DB: {e}")
             

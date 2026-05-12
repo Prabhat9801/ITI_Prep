@@ -18,6 +18,8 @@ const Learn = () => {
   const [syllabusData, setSyllabusData] = useState([]);
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState(null);
+  const [selectedTopicId, setSelectedTopicId] = useState(null);
+  const [selectedSubtopicId, setSelectedSubtopicId] = useState(null);
   const [expandedUnit, setExpandedUnit] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -108,9 +110,14 @@ const Learn = () => {
     setActiveTab('learn');
   };
 
-  const handleTopicClick = async (subject, topicName) => {
+  const handleTopicClick = async (subject, topicObj, unitId = null) => {
     const subj = subject || selectedSubject;
+    const topicName = typeof topicObj === 'string' ? topicObj : topicObj.name;
+    const subId = typeof topicObj === 'string' ? null : topicObj.id;
+
     setSelectedTopic(topicName);
+    setSelectedTopicId(unitId);
+    setSelectedSubtopicId(subId);
     setActiveTab('learn');
     setTeachingContent('');
     setChatMessages([{
@@ -195,6 +202,9 @@ const Learn = () => {
         body: JSON.stringify({
           subject: selectedSubject.subject_name,
           topic: selectedTopic,
+          subject_id: selectedSubject.subject_id,
+          topic_id: selectedTopicId,
+          subtopic_id: selectedSubtopicId,
           count: 5,
           difficulty: 'mixed',
           provider: selectedProvider
@@ -283,13 +293,16 @@ const Learn = () => {
                         </button>
                         {expandedUnit === uidx && unit.topics && (
                           <div className="sb-tlist">
-                            {unit.topics.map((t, tidx) => (
-                              <button key={tidx}
-                                className={`sb-topic ${selectedTopic === t ? 'on' : ''}`}
-                                onClick={() => handleTopicClick(subj, t)}>
-                                <Lightbulb size={11} /><span>{t}</span>
-                              </button>
-                            ))}
+                            {(unit.topic_details || unit.topics).map((t, tidx) => {
+                              const tName = typeof t === 'string' ? t : t.name;
+                              return (
+                                <button key={tidx}
+                                  className={`sb-topic ${selectedTopic === tName ? 'on' : ''}`}
+                                  onClick={() => handleTopicClick(subj, t, unit.unit_id)}>
+                                  <Lightbulb size={11} /><span>{tName}</span>
+                                </button>
+                              );
+                            })}
                           </div>
                         )}
                       </div>

@@ -79,10 +79,42 @@ def get_study_plan(db: Session = Depends(get_db)):
 
 
 @router.get("/full")
-def get_full_syllabus():
-    """Return the complete syllabus.json data for the interactive learning page."""
-    data = _load_syllabus_json()
-    return data
+def get_full_syllabus(db: Session = Depends(get_db)):
+    """Return the complete syllabus with database IDs for accurate AI matching."""
+    subjects = db.query(Subject).order_by(Subject.order_index).all()
+    result = []
+    for s in subjects:
+        units = []
+        topics_list = db.query(Topic).filter(Topic.subject_id == s.id).order_by(Topic.order_index).all()
+        for t in topics_list:
+            subtopics = db.query(Subtopic).filter(Subtopic.topic_id == t.id).order_by(Subtopic.order_index).all()
+            if subtopics:
+                # Map to 'units' structure: Unit name is Topic name, topics are Subtopic names
+                units.append({
+                    "unit_title": t.name,
+                    "unit_id": t.id,
+                    "topics": [st.name for st in subtopics],
+                    "topic_details": [{"id": st.id, "name": st.name} for st in subtopics]
+                })
+            else:
+                # No subtopics, treat the topic as a standalone item
+                units.append({
+                    "unit_title": t.name,
+                    "unit_id": t.id,
+                    "topics": [t.name],
+                    "topic_details": [{"id": None, "name": t.name}]
+                })
+        
+        result.append({
+            "subject_id": s.id,
+            "subject_name": s.name,
+            "name_hi": s.name_hi,
+            "icon": s.icon,
+            "color": s.color,
+            "units": units if units else None,
+            "topics": [t.name for t in topics_list] if not units else None
+        })
+    return {"syllabus": result}
 
 
 @router.get("/subject-topics/{subject_name}")
