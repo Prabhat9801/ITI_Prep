@@ -13,6 +13,4 @@ python-multipart
 tqdm
 PyYAML
 requests
-recharts-py
-react-markdown
-# Note: numpy and others will be installed as dependencies automatically
+# Removed JS packages mistakenly added: recharts-py, react-markdown
