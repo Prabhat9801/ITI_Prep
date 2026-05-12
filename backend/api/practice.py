@@ -234,15 +234,15 @@ def submit_mock_test(data: MockTestSubmit, db: Session = Depends(get_db)):
         )
         db.add(mock_answer)
         
-    print(f"DEBUG: Saved {len(data.answers)} detailed answers for Mock Test {result.id}")
-    
-    # Aggregate topic-level stats for weak area analysis
+        # Aggregate topic-level stats for weak area analysis
         key = topic_name or 'General'
         if key not in topic_stats:
             topic_stats[key] = {'total': 0, 'correct': 0, 'subject_name': subject_name, 'topic_name': topic_name}
         topic_stats[key]['total'] += 1
         if ans.get('is_correct'):
             topic_stats[key]['correct'] += 1
+        
+    print(f"DEBUG: Saved {len(data.answers)} detailed answers for Mock Test {result.id}")
     
     # Analyze weak areas from this test and log evolution
     for t_name, stats in topic_stats.items():
