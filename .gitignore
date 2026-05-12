@@ -18,9 +18,6 @@ ENV/
 env/
 
 # Database
-*.sqlite
-*.db
-its_database.db
 
 # Environment variables
 .env
