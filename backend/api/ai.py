@@ -14,6 +14,8 @@ router = APIRouter(prefix="/api/ai", tags=["AI"])
 class QuizRequest(BaseModel):
     subject: str
     topic: str
+    subject_id: int | None = None
+    topic_id: int | None = None
     count: int = 5
     difficulty: str = "mixed"
     provider: str = "auto"
@@ -86,29 +88,43 @@ def generate_quiz_endpoint(data: QuizRequest, db: Session = Depends(get_db)):
         
         # Save to DB to organically grow the question bank
         try:
-            # Find subject and topic IDs
-            subject_obj = db.query(Subject).filter(Subject.name.ilike(f"%{data.subject}%")).first()
-            topic_obj = None
-            if subject_obj:
-                topic_obj = db.query(Topic).filter(Topic.subject_id == subject_obj.id, Topic.name.ilike(f"%{data.topic}%")).first()
+            # Find subject and topic IDs (use provided ones or match by name)
+            s_id = data.subject_id
+            t_id = data.topic_id
             
-            new_db_question = Question(
-                subject_id=subject_obj.id if subject_obj else None,
-                topic_id=topic_obj.id if topic_obj else None,
-                question_text=q["q"],
-                option_a=options[0][1],
-                option_b=options[1][1],
-                option_c=options[2][1],
-                option_d=options[3][1],
-                correct_answer=new_ans,
-                difficulty=q.get("diff", "medium"),
-                exam_level=q.get("lvl", "ITI"),
-                question_type=q.get("type", "concept"),
-                explanation=q.get("exp", ""),
-                why_others_wrong=q.get("why_wrong", ""),
-                source="organic_quiz"
-            )
-            db.add(new_db_question)
+            if not s_id:
+                subject_obj = db.query(Subject).filter(Subject.name.ilike(f"%{data.subject}%")).first()
+                if subject_obj:
+                    s_id = subject_obj.id
+            
+            if not t_id and s_id:
+                # Try smarter matching for topic name (remove symbols and compare)
+                clean_topic = "".join(e for e in data.topic if e.isalnum()).lower()
+                topic_obj = db.query(Topic).filter(Topic.subject_id == s_id).filter(Topic.name.ilike(f"%{data.topic[:20]}%")).first()
+                if topic_obj:
+                    t_id = topic_obj.id
+
+            # ONLY add if we have both IDs (required by DB schema)
+            if s_id and t_id:
+                new_db_question = Question(
+                    subject_id=s_id,
+                    topic_id=t_id,
+                    question_text=q["q"],
+                    option_a=options[0][1],
+                    option_b=options[1][1],
+                    option_c=options[2][1],
+                    option_d=options[3][1],
+                    correct_answer=new_ans,
+                    difficulty=q.get("diff", "medium"),
+                    exam_level=q.get("lvl", "ITI"),
+                    question_type=q.get("type", "concept"),
+                    explanation=q.get("exp", ""),
+                    why_others_wrong=q.get("why_wrong", ""),
+                    source="organic_quiz"
+                )
+                db.add(new_db_question)
+            else:
+                print(f"DEBUG: Skipping organic save for '{data.topic}' - Subject/Topic IDs not found.")
         except Exception as e:
             print(f"Error saving AI question to DB: {e}")
             
